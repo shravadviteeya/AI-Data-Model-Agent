@@ -1,0 +1,146 @@
+python .\main.py         
+06:46:54 | INFO     | Generating sample data...
+Created: data\sample\sales_data.xlsx (300 rows)
+Created: data\sample\pipeline.xlsx (80 opportunities)
+Created: data\sample\closed_deals.xlsx (120 closed deals)
+
+All sample files in: C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\data\sample
+06:46:57 | SUCCESS  | Sample files created: ['data\\sample\\sales_data.xlsx', 'data\\sample\\pipeline.xlsx', 'data\\sample\\closed_deals.xlsx']
+╭─────────────────────────────────╮
+│ KPI Intelligence Agent          │
+│ Wireframe 1 · 08 Apr 2026 06:46 │
+╰─────────────────────────────────╯
+06:46:57 | INFO     | Step 1/7 — Loading Excel files...
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:46:57 | INFO     |   Loaded 'sales_data': 300 rows × 12 cols
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:46:57 | INFO     |   Loaded 'pipeline': 80 rows × 8 cols
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:46:57 | INFO     |   Loaded 'closed_deals': 120 rows × 8 cols
+06:46:57 | SUCCESS  | Loaded 12 total rows from 3 table(s)
+06:46:57 | INFO     | Step 2/7 — Calculating KPIs...
+Traceback (most recent call last):
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 296, in <module>
+    main()
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1406, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 287, in main
+    run_agent(
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 100, in run_agent
+    from core.kpi_calculator import KPICalculator
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\kpi_calculator.py", line 13, in <module>
+    class KPICalculator:
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\kpi_calculator.py", line 234, in KPICalculator
+    canonical: str) -> Optional[str]:
+                       ^^^^^^^^
+NameError: name 'Optional' is not defined
+(venv) PS C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1> python .\main.py
+06:47:42 | INFO     | Generating sample data...
+Created: data\sample\sales_data.xlsx (300 rows)
+Created: data\sample\pipeline.xlsx (80 opportunities)
+Created: data\sample\closed_deals.xlsx (120 closed deals)
+
+All sample files in: C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\data\sample
+06:47:44 | SUCCESS  | Sample files created: ['data\\sample\\sales_data.xlsx', 'data\\sample\\pipeline.xlsx', 'data\\sample\\closed_deals.xlsx']
+╭─────────────────────────────────╮
+│ KPI Intelligence Agent          │
+│ Wireframe 1 · 08 Apr 2026 06:47 │
+╰─────────────────────────────────╯
+06:47:44 | INFO     | Step 1/7 — Loading Excel files...
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:47:44 | INFO     |   Loaded 'sales_data': 300 rows × 12 cols
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:47:44 | INFO     |   Loaded 'pipeline': 80 rows × 8 cols
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\excel_loader.py:108: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.  
+  pd.to_datetime(non_null.head(10))
+06:47:44 | INFO     |   Loaded 'closed_deals': 120 rows × 8 cols
+06:47:44 | SUCCESS  | Loaded 12 total rows from 3 table(s)
+06:47:44 | INFO     | Step 2/7 — Calculating KPIs...
+Traceback (most recent call last):
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 296, in <module>
+    main()
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1406, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\venv\Lib\site-packages\click\core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 287, in main
+    run_agent(
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\main.py", line 100, in run_agent
+    from core.kpi_calculator import KPICalculator
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\kpi_calculator.py", line 13, in <module>
+    class KPICalculator:
+  File "C:\Users\Adviteeya.Shrav\OneDrive - Coforge Limited\Projects\Projects\PMO\AI AGENT\PROJECT HBION\P9\kpi-agent-v1\core\kpi_calculator.py", line 234, in KPICalculator
+    canonical: str) -> Optional[str]:
+                       ^^^^^^^^
+NameError: name 'Optional' is not defined
